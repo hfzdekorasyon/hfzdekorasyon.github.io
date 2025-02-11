@@ -87,3 +87,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.text-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-photo-container img {
+    max-width: 150px; /* Fotoğrafın genişliği */
+    margin-right: 15px; /* Metin ile fotoğraf arasındaki boşluk */
+    border-radius: 8px; /* Köşeleri yuvarlatma opsiyonel */
+}
