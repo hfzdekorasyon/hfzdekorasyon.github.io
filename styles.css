@@ -6,22 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header {
     background-color: #0bee3c;
     color: white;
     padding: 10px 0;
-    height: 150px; /* Yüksekliği belirleyelim */
-    display: flex;
-    justify-content: center; /* Yatayda ortala */
-    align-items: center; /* Dikeyde ortala */
 }
-
 nav {
     list-style-type: none;
     text-align: center;
@@ -42,12 +33,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
-
 .center-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center; /* Yazıyı yatayda ortalar */
 }
 
@@ -58,6 +44,7 @@ nav ul li a {
     font-weight: bold; /* Yazıyı kalın yap */
     font-style: italic; /* Yazıyı italik (eğik) yap */
 }
+
 
 .hero {
     background-color: #f1f1f1;
@@ -86,16 +73,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.text-photo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text-photo-container img {
-    max-width: 150px; /* Fotoğrafın genişliği */
-    margin-right: 15px; /* Metin ile fotoğraf arasındaki boşluk */
-    border-radius: 8px; /* Köşeleri yuvarlatma opsiyonel */
 }
